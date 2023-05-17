@@ -1,0 +1,6 @@
+project: PROJECT_NAME
+target: prance
+duration: 600
+cmds:
+    - cmd: /src/mayhem/fuzz_prance.py
+      libfuzzer: true
